@@ -1,0 +1,49 @@
+.basebgcolor{
+  background: #4BB3FD;
+}
+.btn-size{
+  padding: 1rem;
+  margin: 1rem;
+  min-width: 10rem;
+  min-height: 1rem;
+  position: relative;
+}
+
+.QuestionBox{
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  top: 10%;
+  bottom: auto;
+  padding: 50px;
+  border: 5px solid;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  background-color: #FFEBEB;
+  overflow: auto
+}
+
+.navbarBgColor{
+  background-color: #074373;
+  color: white;
+}
+.btn-size:hover{
+  transform: scale(1.5)
+}
+
+.resultPage{
+  position: absolute;
+  background: linear-gradient(#e66465, #9198e5);
+  height: 100%;
+  width: 100%;
+}
+.resultText{
+  position: relative;
+  color: white;
+  text-align: center;
+  top: 40%;
+  bottom: 50%;
+  font-weight: bold;
+  text-shadow: #FC0 1px 0 10px;
+}
